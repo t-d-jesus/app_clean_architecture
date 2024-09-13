@@ -2,7 +2,7 @@ import pytest
 from unittest.mock import AsyncMock
 from application.usecases.create_product import CreateProductUseCase
 from application.dto.create_product_dto import CreateProductDTO
-from domain.entities.product import Product
+from domain.entities.product.product import Product
 
 @pytest.mark.asyncio
 async def test_create_product_success():

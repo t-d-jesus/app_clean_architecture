@@ -1,6 +1,6 @@
 from domain.repositories.product_repository import ProductRepository
 from application.dto.create_product_dto import CreateProductDTO
-from domain.entities.product import Product
+from domain.entities.product.product import Product
 
 class CreateProductUseCase:
     def __init__(self, product_repository: ProductRepository):

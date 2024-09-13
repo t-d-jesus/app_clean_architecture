@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from domain.entities.product import Product
+from domain.entities.product.product import Product
 
 class ProductRepository(ABC):
     
